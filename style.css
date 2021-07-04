@@ -1,0 +1,26 @@
+#titleMain {
+    text-align: center;
+    color: red;
+    font-size: 48px;
+    font-family: 'Trebuchet MS';
+}
+#aslForm {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+#welcome {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+#nav {
+    font-family: 'Trebuchet MS';
+    padding: 2rem;
+    font-size: larger;
+    word-spacing: 15px;
+    font-family: 'Trebuchet MS';
+}
+#alphabet {
+    height: 75%;
+    width: 75%;
+    font-family: 'Trebuchet MS';
+}

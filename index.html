@@ -1,18 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Starter</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
-<h1>Hello World! Test</h1>
+      <title class="title">the Market</title>
+      <meta name="description" content="HTMLmeAssignment_11.20">
+      <meta name="author" content="Justin Gaffney">
 
-<script src="script.js"></script>
-</body>
+      <link rel="stylesheet" href="style.css">
 
+    </head>
+
+  <body>
+    <script src="script.js"></script>
+
+    
+    <header role="banner">
+      <br />
+
+      <h1 id="titleMain">handTalk</h1>
+
+      <hr />
+      <br />
+
+      <nav id="nav">
+        <a class="" href="index.html">Home</a>
+        <a class="" href="alphabet/index.html">ASL-Alphabet</a>
+        <a href="">ASL-Translator</a>
+        <br />
+      </nav>
+
+    </header>
+
+    <main>
+      <div>
+        <hr />
+        <h1 id="welcome">Welcome to handTalk! The easy-to-use ASL Translator!</h1>
+
+        <form id="aslForm">
+          Input: <input type="text" placeholder="Enter Word or Phrase Here" name="aslForm">
+          <input type="button" onclick="onSubmit()" value="Submit">
+        </form>
+      </div>
+    </main>
+    
+
+    <footer>
+
+    </footer>
+  </body>
 </html>
