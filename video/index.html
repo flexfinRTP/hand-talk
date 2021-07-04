@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title class="title">handTalk Video</title>
+  <meta name="description" content="HTMLmeAssignment_11.20">
+  <meta name="author" content="Justin Gaffney">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <script src="custom.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <!-- <script src="js/custom.js"></script> -->
+
+  <header role="banner"></header>
+    <br />
+    <h1 id="titleMain">handTalk</h1>
+    <hr />
+    <br />
+    <nav id="nav">
+      <a class="" href="../index.html">Home</a>
+      <a class="" href="../alphabet/index.html">ASL-Alphabet</a>
+      <a class="" href="/index.html">handTalk-Video</a>
+      <br />
+    </nav>
+
+  </header>
+
+  <main>
+    <div>
+
+      <hr />
+      <h1 id="welcome">Welcome to handTalk! Use the video search to look up ASL how to videos.</h1>
+
+      <!-- <form id="aslForm">
+        Input: <input id="aslInput" type="text" placeholder="Enter Word or Phrase Here" name="aslInput">
+        <input type="button" onclick="addArray()" value="Submit">
+        <input type="button" onclick="displaySubmitArray()" value="Display">
+      </form>
+      <div id="Result" class="center"></div> -->
+
+    </div>
+
+    <div class="center">
+      <form id="yt-form">
+        <p><input type="text" id="keyword-input" placeholder="Enter keyword" required></p>
+        <p><input type="number" id="maxresult-input" placeholder="Max Results" min="1" max="50"></p>
+        <p>
+          <select id="order-input" required>
+            <option value="">---SELECT ORDER---</option>
+            <option value="date">Date</option>
+            <option value="rating">Rating</option>
+            <option value="relevance">Relevance</option>
+            <option value="title">Title</option>
+            <option value="viewCount" selected>View Count</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </form>
+
+      <div id="videoListContainer"></div>
+
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
