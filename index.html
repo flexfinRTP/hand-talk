@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <title class="title">the Market</title>
-      <meta name="description" content="HTMLmeAssignment_11.20">
-      <meta name="author" content="Justin Gaffney">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <link rel="stylesheet" href="style.css">
+  <title class="title">the Market</title>
+  <meta name="description" content="HTMLmeAssignment_11.20">
+  <meta name="author" content="Justin Gaffney">
 
-    </head>
+  <link rel="stylesheet" href="style.css">
 
-  <body>
-    <script src="script.js"></script>
+</head>
 
-    
-    <header role="banner">
+<body>
+  <script src="script.js"></script>
+
+  <header role="banner">
+    <br />
+    <h1 id="titleMain">handTalk</h1>
+    <hr />
+    <br />
+    <nav id="nav">
+      <a class="" href="index.html">Home</a>
+      <a class="" href="alphabet/index.html">ASL-Alphabet</a>
+      <!-- <a href="">ASL-Translator</a> -->
       <br />
+    </nav>
 
-      <h1 id="titleMain">handTalk</h1>
+  </header>
+
+  <main>
+
+    <div>
 
       <hr />
-      <br />
+      <h1 id="welcome">Welcome to handTalk! The easy-to-use ASL Translator!</h1>
 
-      <nav id="nav">
-        <a class="" href="index.html">Home</a>
-        <a class="" href="alphabet/index.html">ASL-Alphabet</a>
-        <a href="">ASL-Translator</a>
-        <br />
-      </nav>
+      <form id="aslForm">
+        Input: <input id="aslInput" type="text" placeholder="Enter Word or Phrase Here" name="aslInput">
+        <input type="button" onclick="addArray()" value="Submit">
+        <input type="button" onclick="displaySubmitArray()" value="Display">
+      </form>
+      <div id="Result" class="center"></div>
 
-    </header>
+    </div>
 
-    <main>
-      <div>
-        <hr />
-        <h1 id="welcome">Welcome to handTalk! The easy-to-use ASL Translator!</h1>
+  </main>
 
-        <form id="aslForm">
-          Input: <input type="text" placeholder="Enter Word or Phrase Here" name="aslForm">
-          <input type="button" onclick="onSubmit()" value="Submit">
-        </form>
-      </div>
-    </main>
-    
+  <footer>
 
-    <footer>
+  </footer>
+</body>
 
-    </footer>
-  </body>
 </html>
