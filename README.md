@@ -7,9 +7,9 @@ This app will help you translate english words and phrases into ASL sign languag
 ### Mock-Up
 
 <p>
-    <img src="../img/Home.png">
+    <img src="img/Home.png">
     <br />
-    <img src="../img/ASL_Alphabet.png">
+    <img src="img/ASL_Alphabet.png">
 </p>
 
 ### Run
